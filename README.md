@@ -1,6 +1,6 @@
-# Netflix Clone
+# Sasta Netflix
 
-A Netflix Android clone UI using flutter
+A Sasta Netflix clone so good, ki tum bhul jaoge ki asli kaunsa hai and nakli kaunsa! :cool:
 
 # Screenshots
 
@@ -10,4 +10,4 @@ A Netflix Android clone UI using flutter
 <img src="ops/ss4.png" style="float:left" height="320" width=160>.
 <img src="ops/ss5.png" style="float:left" height="320" width=160>.
 
- - Final apk in [ops Folder](ops)
+ - Final apk in [Screenshots Folder](Screenshots)
