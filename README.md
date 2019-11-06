@@ -6,11 +6,11 @@
 
 <br>
 
-[![](https://img.shields.io/badge/Made_with-Flutter-red?style=for-the-badge&logo=flutter)](https://www.djangoproject.com/ "Django")
+[![](https://img.shields.io/badge/Made_with-Flutter-red?style=for-the-badge&logo=flutter)](https://flutter.dev/ "Flutter")
 [![](https://img.shields.io/badge/IDE-Visual_Studio_Code-red?style=for-the-badge&logo=visual-studio-code)](https://code.visualstudio.com/  "Visual Studio Code")
 
 <br>
-<h3>A Sasta Netflix clone so good, ki tum bhul jaoge ki asli kaunsa hai and nakli kaunsa! :sunglasses:</h3>
+<h3>A Sasta Netflix clone in Flutter so good, ki tum bhul jaoge ki asli kaunsa hai and nakli kaunsa! :sunglasses:</h3>
 </div>
 
 ---
