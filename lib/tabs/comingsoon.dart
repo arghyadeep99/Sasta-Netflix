@@ -7,14 +7,14 @@ class ComingSoonPage extends StatelessWidget{
       backgroundColor: Colors.black87,
       body: ListView(
         children: <Widget>[
-          itemCont(context,'Oblivion','Coming 17 April','In 2077, sixty years after a war with extraterrestrials that devastated Earth, humanity has relocated to Saturn\'s moon Titan via a giant space station called the Tet. Gigantic offshore fusion energy generators drain Earth\'s oceans to power the colonies on Titan. '
-          ,'assets/images/obli.jpg','Sci-fi • Future • Cyborgs & Robots • Cyberpunk'),
-          itemCont(context,'Our Planet','Coming 25 April',
-          'Our Planet (2019) is a British nature documentary series made for Netflix. The series is narrated by David Attenborough and produced by Silverback Films, led by Alastair Fothergill and Keith Scholey.'
-          ,'assets/images/ourplanet.jpg','Documentary • BBC • Planet Earth • Nature'),
-          itemCont(context,'Chilling Adventures of Sabrina','Coming 24 April',
-          'Sabrina Spellman must reconcile her dual nature as a half-witch, half-mortal while fighting the evil forces that threaten her, her family and the daylight world humans inhabit.'
-          ,'assets/images/sabrina.jpg','Horror • Half-Witch • Magic'),
+          itemCont(context,'Cricket Fever: Mumbai Indians','Coming 20 November','Follow Indian Premier League champions Mumbai Indians through the 2018 season in this series featuring insider insights and intense cricket action.'
+          ,'assets/images/mi.jpg','Social • Cultural • Documentary • Cricket'),
+          itemCont(context,'Lost in Space','Coming 25 December',
+          'After crash-landing on an alien planet, the Robinson family fights against all odds to survive and escape. But they\'re surrounded by hidden dangers.'
+          ,'assets/images/los.jpg','Action • Adventure • Space • Extraterrestrial'),
+          itemCont(context,'Travelers','Coming 4 January',
+          'A federal agent tracks four people who suddenly seem to possess entirely new personalities, leading to a startling discovery about humanity\'s future.'
+          ,'assets/images/apollo.jpg','Sci-Fi • Adventure • Fantasy'),
         ],
       ),
     );

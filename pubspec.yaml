@@ -66,6 +66,9 @@ flutter:
    - assets/images/nk2.jpeg
    - assets/images/jc.jpg
    - assets/images/sc.jpg
+   - assets/images/mi.jpg
+   - assets/images/los.jpg
+   - assets/images/apollo.jpg
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.io/assets-and-images/#resolution-aware.
 

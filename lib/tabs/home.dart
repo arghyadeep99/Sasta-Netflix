@@ -171,7 +171,7 @@ Widget build(BuildContext context){
                       )));
                     },
                     child:Container(
-                  height: 200.0,
+                  height: 190.0,
                 decoration: BoxDecoration(
                   image: DecorationImage(
                     image: AssetImage('assets/images/ghoul.jpg')
