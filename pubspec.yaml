@@ -58,7 +58,14 @@ flutter:
    - assets/images/obli.jpg
    - assets/images/ourplanet.jpg
    - assets/images/sabrina.jpg
-
+   - assets/images/b99.jpg
+   - assets/images/narcos.jpg
+   - assets/images/sacredgames.jpg
+   - assets/images/young_sheldon.jpg
+   - assets/images/chernobyl.jpg
+   - assets/images/nk2.jpeg
+   - assets/images/jc.jpg
+   - assets/images/sc.jpg
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.io/assets-and-images/#resolution-aware.
 

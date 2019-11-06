@@ -22,13 +22,13 @@ Widget build(BuildContext context){
             
             children: <Widget>[
               Container(
-                child: Image.asset('assets/images/owner.png'),
+                child: Image.asset('assets/images/jc.jpg'),
                 margin: EdgeInsets.only(right:5.0),
                 height: 60.0,
                 width: 60.0,
               ),
              Container(
-                child: Image.asset('assets/images/js.png'),
+                child: Image.asset('assets/images/nk2.jpeg'),
                 height: 60.0,
                 width: 60.0,
               ),
@@ -45,7 +45,7 @@ Widget build(BuildContext context){
                 width: 80.0,
               ),
               Container(
-                child: Image.asset('assets/images/p2.png'),
+                child: Image.asset('assets/images/sc.jpg'),
                 height: 60.0,
                 width: 60.0,
               ),
@@ -136,6 +136,7 @@ Widget build(BuildContext context){
       ),
       margin: EdgeInsets.symmetric(horizontal:5.0),
       child: Row(children: <Widget>[
+        Icon(Icons.settings_applications,color: Colors.grey,size:20.0),
         SizedBox(width: 10.0,),
         Text('App Settings',
       style: TextStyle(
@@ -154,6 +155,7 @@ Widget build(BuildContext context){
       ),
       margin: EdgeInsets.symmetric(horizontal:5.0),
       child: Row(children: <Widget>[
+        Icon(Icons.account_box,color: Colors.grey,size:20.0),
         SizedBox(width: 10.0,),
         Text('Account',
       style: TextStyle(
@@ -172,6 +174,7 @@ Widget build(BuildContext context){
       ),
       margin: EdgeInsets.symmetric(horizontal:5.0),
       child: Row(children: <Widget>[
+        Icon(Icons.help_outline,color: Colors.grey,size:20.0),
         SizedBox(width: 10.0,),
         Text('Help',
       style: TextStyle(
@@ -190,6 +193,7 @@ Widget build(BuildContext context){
       ),
       margin: EdgeInsets.symmetric(horizontal:5.0),
       child: Row(children: <Widget>[
+        Icon(Icons.exit_to_app,color: Colors.grey,size:20.0),
         SizedBox(width: 10.0,),
         Text('Sign Out',
       style: TextStyle(

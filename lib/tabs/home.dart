@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import '../data.dart';
 import 'package:netflix_clone/detailspage.dart';
 class HomePage extends StatelessWidget{
 
@@ -52,23 +51,17 @@ Widget build(BuildContext context){
                  width: double.infinity,
                  height: 100.0,
                ),
-               Container(
-                 height: 150,
-                 width: double.infinity,
-                 padding: EdgeInsets.all(20),
-                 child: 
-                 Image.asset('assets/images/alclogo.png'),
-               ),
+
                SizedBox(
                  width: double.infinity,
-                 height: 50.0,
+                 height: 150.0,
                ),
                new Row(
                  mainAxisAlignment: MainAxisAlignment.center,
                  children: <Widget>[
                    Text.rich(
                      TextSpan(
-                       text:'Future  •  Sci-fi  •  Apocalypse  •  Netflix Original'
+                       text:'Crime  •  Thriller  •  Suspense  •  Netflix Original'
                      ),style: TextStyle(
                        color: Colors.white,
                        fontFamily: 'Montserrat',
@@ -79,7 +72,7 @@ Widget build(BuildContext context){
                ),
                SizedBox(
                  width: double.infinity,
-                 height: 20.0,
+                 height: 75.0,
                ),
                new Row(
                  mainAxisAlignment: MainAxisAlignment.center,
@@ -116,7 +109,7 @@ Widget build(BuildContext context){
                        Navigator.push(
                         context,
                         MaterialPageRoute(builder: (context) => DetailsPage(
-                          data:'Alc'
+                          data:'SG'
                         )),
                           );
                           },
@@ -135,7 +128,7 @@ Widget build(BuildContext context){
          decoration: BoxDecoration(
          color: Colors.blue,
          image: DecorationImage(
-                image: new AssetImage('assets/images/alc.jpg'),
+                image: new AssetImage('assets/images/sacredgames.jpg'),
                 
                 colorFilter: ColorFilter.mode(Colors.black.withOpacity(0.5),BlendMode.multiply),
           fit: BoxFit.fill
@@ -152,7 +145,7 @@ Widget build(BuildContext context){
               SizedBox(width:10.0,height:10.0),
               Text.rich(
                      TextSpan(
-                       text:'Continue watching for Ram'
+                       text:'Continue watching for Akshara'
                      ),style: TextStyle(
                        color: Colors.white,
                        fontSize: 14.0,
@@ -207,7 +200,7 @@ Widget build(BuildContext context){
                   children: <Widget>[
                     Text.rich(
                      TextSpan(
-                       text:'S01:E03'
+                       text:'S02:E03'
                      ),style: TextStyle(
                        color: Colors.white.withOpacity(0.7),
                        fontSize: 19.0,
@@ -223,29 +216,38 @@ Widget build(BuildContext context){
               ),
               ],
               ),
-                            Column(
+              Column(
                 children: <Widget>[
-                Container(
+                  GestureDetector(
+                    onTap: (){
+                      Navigator.push(context,
+                      MaterialPageRoute(builder: (context)=>DetailsPage(
+                        data:'CBL'
+                      )));
+                    },
+                    child:Container(
                   height: 200.0,
                 decoration: BoxDecoration(
                   image: DecorationImage(
-                    image: AssetImage('assets/images/str2.jpg')
+                    image: AssetImage('assets/images/chernobyl.jpg')
                   )
                 ),
                 child: new Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: <Widget>[
                       Center(
-                  child: Icon(Icons.play_circle_outline,color: Colors.white.withOpacity(0.8),size:80.0),
+                  child: Icon(Icons.play_circle_outline,color: Colors.white.withOpacity(0.8),size:80.0
                 ),
+                      )
                   ],
                 ),
                 margin: EdgeInsets.symmetric(horizontal: 5.0),
                 width: 130.0,
-              ),
+              ) ,
+                  )
+                ,
               Container(
                 color: Colors.black,
-                height: 40.0,
                 padding: EdgeInsets.symmetric(horizontal: 10.0),
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.start,
@@ -253,7 +255,7 @@ Widget build(BuildContext context){
                   children: <Widget>[
                     Text.rich(
                      TextSpan(
-                       text:'S02:E05'
+                       text:'S01:E05'
                      ),style: TextStyle(
                        color: Colors.white.withOpacity(0.7),
                        fontSize: 19.0,
@@ -264,6 +266,62 @@ Widget build(BuildContext context){
                    Icon(Icons.info_outline,color:Colors.grey,size:22.0)
                     
                 ],),
+                height: 40.0,
+                width:130.0
+              ),
+              ],
+              ),
+              Column(
+                children: <Widget>[
+                  GestureDetector(
+                    onTap: (){
+                      Navigator.push(context,
+                      MaterialPageRoute(builder: (context)=>DetailsPage(
+                        data:'YS'
+                      )));
+                    },
+                    child:Container(
+                  height: 200.0,
+                decoration: BoxDecoration(
+                  image: DecorationImage(
+                    image: AssetImage('assets/images/young_sheldon.jpg')
+                  )
+                ),
+                child: new Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: <Widget>[
+                      Center(
+                  child: Icon(Icons.play_circle_outline,color: Colors.white.withOpacity(0.8),size:80.0
+                ),
+                      )
+                  ],
+                ),
+                margin: EdgeInsets.symmetric(horizontal: 5.0),
+                width: 130.0,
+              ) ,
+                  )
+                ,
+              Container(
+                color: Colors.black,
+                padding: EdgeInsets.symmetric(horizontal: 10.0),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.start,
+                  
+                  children: <Widget>[
+                    Text.rich(
+                     TextSpan(
+                       text:'S01:E25'
+                     ),style: TextStyle(
+                       color: Colors.white.withOpacity(0.7),
+                       fontSize: 19.0,
+                       fontFamily: 'Montserrat'
+                     ),
+                   ),
+                   SizedBox(height: 40.0,width: 15.0,),
+                   Icon(Icons.info_outline,color:Colors.grey,size:22.0)
+                    
+                ],),
+                height: 40.0,
                 width:130.0
               ),
               ],
@@ -316,12 +374,12 @@ Widget build(BuildContext context){
                    Navigator.push(
                         context,
                         MaterialPageRoute(builder: (context) => DetailsPage(
-                          data:'Alc'
+                          data:'SG'
                         )),
                           );
                 },
                 child: Container(
-                child: Image.asset('assets/images/alc.jpg'),
+                child: Image.asset('assets/images/sacredgames.jpg'),
                 margin: EdgeInsets.symmetric(horizontal: 5.0),
                 width: 130.0,
               ),
@@ -331,12 +389,12 @@ Widget build(BuildContext context){
                    Navigator.push(
                         context,
                         MaterialPageRoute(builder: (context) => DetailsPage(
-                          data:'Hoc'
+                          data:'CBL'
                         )),
                           );
                 },
                 child: Container(
-                child: Image.asset('assets/images/hox.jpg'),
+                child: Image.asset('assets/images/chernobyl.jpg'),
                 margin: EdgeInsets.symmetric(horizontal: 5.0),
                 width: 130.0,
               ),

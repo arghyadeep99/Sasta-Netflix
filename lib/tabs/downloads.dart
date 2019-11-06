@@ -42,7 +42,7 @@ class DownloadPage extends StatelessWidget{
             child:Image.asset('assets/images/nk.jpg')
             ),
             Text(
-              'Ram',
+              'Akshara',
               style: TextStyle(
                 fontFamily: 'Montserrat',
                 fontSize: 16.0,
@@ -56,20 +56,20 @@ class DownloadPage extends StatelessWidget{
               margin: EdgeInsets.all(0),
               width:200,
               height: 80,
-              child: Image.asset('assets/images/jojo.jpg'),
+              child: Image.asset('assets/images/narcos.jpg'),
             ),
             Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: <Widget>[
                 Text(
-                  'JoJo\'s',
+                  'Narcos',
                   style:TextStyle(
                     color:Colors.white
                   )
                 ),
                 SizedBox(height: 5.0,),
                 Text(
-                  '3 Episodes | 457MB',
+                  '5 Episodes | 679MB',
                   style:TextStyle(
                     color:Colors.white,
                     fontSize: 10.0,
@@ -89,20 +89,20 @@ class DownloadPage extends StatelessWidget{
               margin: EdgeInsets.all(0),
               width:200,
               height: 80,
-              child: Image.asset('assets/images/tra.jpg'),
+              child: Image.asset('assets/images/b99.jpg'),
             ),
             Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: <Widget>[
                 Text(
-                  'Trancendece',
+                  'Brooklyn Nine Nine',
                   style:TextStyle(
                     color:Colors.white
                   )
                 ),
                 SizedBox(height: 5.0,),
                 Text(
-                  '13+ | 768 MB',
+                  '13+ | 2.1 GB',
                   style:TextStyle(
                     color:Colors.white,
                     fontSize: 10.0,

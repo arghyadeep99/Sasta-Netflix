@@ -7,7 +7,7 @@ class DetailsPage extends StatelessWidget{
   DetailsPage({this.data});
   @override
   Widget build(BuildContext context){
-    double c_width = MediaQuery.of(context).size.width*0.95;
+    double cwidth = MediaQuery.of(context).size.width*0.95;
 
     return Scaffold(
       
@@ -96,7 +96,7 @@ class DetailsPage extends StatelessWidget{
                 ),
                 SizedBox(height: 10,width: double.infinity,),
                 Container(
-                  width: c_width,
+                  width: cwidth,
                   child: Row(
                   children: <Widget>[
                     SizedBox(width:10),
@@ -117,7 +117,7 @@ class DetailsPage extends StatelessWidget{
                 ),
                 ),
                  Container(
-                  width: c_width,
+                  width: cwidth,
                   padding: EdgeInsets.symmetric(vertical:5),
                   child: Row(
                   children: <Widget>[
@@ -250,9 +250,9 @@ class DetailsPage extends StatelessWidget{
                   ),
                 ):SizedBox(height: 10,),
                 SizedBox(height: 10,),
-                episodeBlock('1. The One With The Blackout'),
-                episodeBlock('2. The One Where Everyone Knows'),
-                episodeBlock('3. The one With Late Thanksgiving')
+                episodeBlock('1. Episode 1'),
+                episodeBlock('2. Episode 2'),
+                episodeBlock('3. Episode 3')
               ],
             )
           ],
